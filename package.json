@@ -1,5 +1,5 @@
 {
-  "name": "knowd-tryout",
+  "name": "knowd-clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
     "@next/font": "13.4.4",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
