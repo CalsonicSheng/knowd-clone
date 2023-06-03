@@ -12,9 +12,31 @@ body {
 }
 
 .test {
-  color: #adadad;
+  color: #25a1db;
 }
 
 .no-text-decoration {
   text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.input-indicator {
+  position: relative;
+  width: 2px;
+  height: 80%;
+  background-color: black;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
